@@ -1,6 +1,6 @@
 # Code Review Agent
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)]([CARD_2_DEPLOY_URL])
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/vnikhilbuddhavarapu/peer-point-card-2-code-review)
 
 Build an autonomous code-review loop with Cloudflare Think, Workers AI, Durable Objects, and Cloudflare Sandbox. The Agent works against a deterministic broken `order-service`, reproduces its failing test, applies the smallest source-only repair, reruns green, and records the resulting diff.
 
